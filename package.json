@@ -1,0 +1,37 @@
+{
+  "name": "ai-agent-init",
+  "version": "1.0.0",
+  "description": "Bootstrap any project with AI-agent-ready documentation and conventions. Run once, let the AI do the rest.",
+  "keywords": [
+    "ai-agent",
+    "cursor",
+    "copilot",
+    "project-template",
+    "conventions",
+    "bootstrap",
+    "developer-tools"
+  ],
+  "author": "ngocbaomobile",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ngocbaomobile/ai-agent-init.git"
+  },
+  "homepage": "https://github.com/ngocbaomobile/ai-agent-init#readme",
+  "bugs": {
+    "url": "https://github.com/ngocbaomobile/ai-agent-init/issues"
+  },
+  "bin": {
+    "ai-agent-init": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "templates/"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js --help"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
