@@ -1,6 +1,6 @@
 {
-  "name": "ai-agent-init",
-  "version": "1.0.0",
+  "name": "@ngocbaongo/ai-agent-init",
+  "version": "1.0.1",
   "description": "Bootstrap any project with AI-agent-ready documentation and conventions. Run once, let the AI do the rest.",
   "keywords": [
     "ai-agent",
@@ -11,7 +11,7 @@
     "bootstrap",
     "developer-tools"
   ],
-  "author": "ngocbaomobile",
+  "author": "ngocbaongo",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "url": "https://github.com/ngocbaomobile/ai-agent-init/issues"
   },
   "bin": {
-    "ai-agent-init": "./bin/cli.js"
+    "ai-agent-init": "bin/cli.js"
   },
   "files": [
     "bin/",
