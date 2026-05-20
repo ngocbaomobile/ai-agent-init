@@ -1,6 +1,6 @@
 {
   "name": "@ngocbaongo/ai-agent-init",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Bootstrap any project with AI-agent-ready documentation and conventions. Run once, let the AI do the rest.",
   "keywords": [
     "ai-agent",

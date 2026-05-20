@@ -16,15 +16,19 @@ Scan the project root directory and determine:
 - The **existing folder structure** (top-level directories and their apparent purpose)
 
 **Detection signals to look for:**
-| File/Folder Found | Tech Stack |
-|---|---|
-| `pubspec.yaml` | Flutter / Dart |
-| `requirements.txt` / `pyproject.toml` / `setup.py` | Python |
-| `package.json` | Node.js / TypeScript / JavaScript |
-| `go.mod` | Go |
-| `Cargo.toml` | Rust |
-| `build.gradle` / `settings.gradle` | Android / Kotlin |
-| `*.xcodeproj` / `*.xcworkspace` | iOS / Swift |
+| File/Folder Found | Tech Stack | Template |
+|---|---|---|
+| `pubspec.yaml` | Flutter / Dart | `rules_flutter.md` |
+| `requirements.txt` / `pyproject.toml` / `setup.py` | Python | `rules_python.md` |
+| `package.json` + `react-native` dependency | React Native | `rules_react_native.md` |
+| `package.json` (no react-native) | Node.js / TypeScript | `rules_nodejs.md` |
+| `go.mod` | Go | `rules_go.md` |
+| `Cargo.toml` | Rust | `rules_rust.md` |
+| `build.gradle` / `settings.gradle` + Kotlin | Android / Kotlin | `rules_android.md` |
+| `*.xcodeproj` / `*.xcworkspace` / `Package.swift` | iOS / Swift | `rules_swift.md` |
+| `pom.xml` / `build.gradle` + Spring Boot | Java / Spring Boot | `rules_java_spring.md` |
+| `composer.json` + Laravel | PHP / Laravel | `rules_php_laravel.md` |
+| `*.csproj` / `*.sln` | .NET / C# | `rules_dotnet.md` |
 
 ---
 
