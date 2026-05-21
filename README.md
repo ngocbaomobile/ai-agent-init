@@ -33,6 +33,7 @@ npx ai-agent-init init
 - 🔍 Analyze your codebase and detect the tech stack
 - 📝 Generate `docs/ai/rules.md` — conventions tailored to your project
 - 🗺️ Generate `docs/ai/project_map.md` — a map of your folder structure
+- 🗑️ Generate `docs/ai/uninstall.md` — guide to remove the project and free up system resources
 - 📄 Create or update `README.md` with real project info
 - ⚙️ Create `.cursorrules` and `.clinerules` at the root
 - 🧹 Delete all template files automatically
@@ -56,7 +57,8 @@ your-project/
 ├── docs/
 │   └── ai/
 │       ├── rules.md          ← Code conventions & architecture for this project
-│       └── project_map.md    ← Folder structure map with descriptions
+│       ├── project_map.md    ← Folder structure map with descriptions
+│       └── uninstall.md      ← Guide to remove project and free resources
 ├── README.md                 ← Updated with real project info
 ├── .cursorrules              ← For Cursor IDE
 └── .clinerules               ← For Cline / Roo-Code

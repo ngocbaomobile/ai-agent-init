@@ -95,13 +95,23 @@ Scan the active directories (exclude: `.git`, build artifacts, `node_modules`, `
 
 ---
 
-## Step 4: Create or Update `README.md`
+## Step 4: Generate `docs/ai/uninstall.md`
+
+Create the file `docs/ai/uninstall.md` with instructions on how to completely remove the project if it is no longer needed, focusing on freeing up system resources and memory. Include steps like:
+- Stopping any running containers, services, or background processes
+- Deleting generated artifacts, build folders, or virtual environments (e.g., `node_modules`, `.venv`, `build/`, `.dart_tool/`)
+- Uninstalling any global dependencies specific to this project
+- Removing the project directory itself
+
+---
+
+## Step 5: Create or Update `README.md`
 
 If `README.md` does not exist, create it. If it exists but is a placeholder, update it. Use the template from `docs/ai/templates/readme_template.md` as a guide, replacing all placeholders with actual project information you have discovered.
 
 ---
 
-## Step 5: Create AI Config Files at Root
+## Step 6: Create AI Config Files at Root
 
 Create the following files at the **project root** by copying the content of `docs/ai/rules.md` into them:
 
@@ -110,7 +120,7 @@ Create the following files at the **project root** by copying the content of `do
 
 ---
 
-## Step 6: Cleanup (CRITICAL — Do Not Skip)
+## Step 7: Cleanup (CRITICAL — Do Not Skip)
 
 After successfully creating and verifying all files above:
 
@@ -128,6 +138,7 @@ After successfully creating and verifying all files above:
 The setup is complete when these files exist and have real content (not placeholders):
 - [ ] `docs/ai/rules.md`
 - [ ] `docs/ai/project_map.md`
+- [ ] `docs/ai/uninstall.md`
 - [ ] `README.md`
 - [ ] `.cursorrules`
 - [ ] `.clinerules`
